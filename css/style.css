@@ -28,7 +28,7 @@ body {
 }
 
 .hero {
-  background-image: url('img/hero.jpg');
+  background-image: url('img/hero-image.jpg');
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -81,14 +81,6 @@ body {
 .section {
   padding: 4rem 2rem;
   transition: background-color 0.3s, padding 0.3s;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-}
-
-.section.visible {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 .section.bg-gray-100 {
@@ -140,6 +132,13 @@ body {
 }
 
 .bg-pattern {
-  background-image: url('img/pattern.png');
+  background-image: url('img/pattern-image.png');
   background-size: cover;
+}
+
+.gradient-section {
+  background: linear-gradient(45deg, #6b7280, #1e3a8a);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
 }
