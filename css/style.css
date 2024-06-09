@@ -28,7 +28,7 @@ body {
 }
 
 .hero {
-  background-image: url('../img/hero-image.jpg');
+  background-image: url('img/A_modern_textile_factory_with_advanced_machinery,_.png');
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -81,23 +81,30 @@ body {
 .section {
   padding: 4rem 2rem;
   transition: background-color 0.3s, padding 0.3s;
-  color: #1a202c; /* Gray 900 */
 }
 
 .section.bg-gray-100 {
-  background-color: #f7fafc; /* Gray 100 */
+  background: linear-gradient(45deg, #e2e8f0, #cbd5e0); /* Gray 200 and Gray 300 */
+  color: #1a202c; /* Gray 900 */
 }
 
 .section.bg-blue-100 {
-  background-color: #ebf8ff; /* Blue 100 */
+  background: linear-gradient(45deg, #ebf8ff, #bee3f8); /* Blue 100 and Blue 200 */
+  color: #1a202c; /* Gray 900 */
 }
 
 .section.bg-blue-200 {
-  background-color: #bee3f8; /* Blue 200 */
+  background: linear-gradient(45deg, #bee3f8, #90cdf4); /* Blue 200 and Blue 300 */
+  color: #1a202c; /* Gray 900 */
+}
+
+.section.bg-blue-600 {
+  background: linear-gradient(45deg, #2c5282, #2b6cb0); /* Blue 600 and Blue 700 */
+  color: white;
 }
 
 .cta {
-  background-color: #2c5282; /* Blue 600 */
+  background: linear-gradient(45deg, #2c5282, #2b6cb0); /* Blue 600 and Blue 700 */
   color: white;
   padding: 2rem;
   text-align: center;
@@ -130,44 +137,4 @@ body {
 
 .hover-translate-y:hover {
   transform: translateY(-10px);
-}
-
-.bg-pattern {
-  background-image: url('../img/pattern.png');
-  background-size: cover;
-}
-
-.gradient-section {
-  background: linear-gradient(45deg, #6b7280, #1e3a8a);
-  color: white;
-  padding: 4rem 2rem;
-  text-align: center;
-}
-
-/* Assicurarsi che il testo sia visibile su sfondi chiari */
-.section p {
-  color: #1a202c; /* Gray 900 */
-}
-
-/* Assicurarsi che i link siano visibili */
-a {
-  color: #1e3a8a; /* Blue 800 */
-}
-
-a:hover {
-  color: #2c5282; /* Blue 600 */
-}
-
-/* Specifico per le sezioni features e services */
-#features .p-4, #services .p-4 {
-  background-color: #fff; /* Sfondo bianco per il testo */
-  color: #1a202c; /* Testo grigio scuro */
-}
-
-#features .p-4 h3, #services .p-4 h3 {
-  color: #1a202c; /* Titoli grigio scuro */
-}
-
-#features .p-4 p, #services .p-4 p {
-  color: #4a5568; /* Testo grigio medio */
 }
