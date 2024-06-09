@@ -157,3 +157,17 @@ a {
 a:hover {
   color: #2c5282; /* Blue 600 */
 }
+
+/* Specifico per le sezioni features e services */
+#features .p-4, #services .p-4 {
+  background-color: #fff; /* Sfondo bianco per il testo */
+  color: #1a202c; /* Testo grigio scuro */
+}
+
+#features .p-4 h3, #services .p-4 h3 {
+  color: #1a202c; /* Titoli grigio scuro */
+}
+
+#features .p-4 p, #services .p-4 p {
+  color: #4a5568; /* Testo grigio medio */
+}
