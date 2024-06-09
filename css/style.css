@@ -81,6 +81,7 @@ body {
 .section {
   padding: 4rem 2rem;
   transition: background-color 0.3s, padding 0.3s;
+  color: #1a202c; /* Gray 900 */
 }
 
 .section.bg-gray-100 {
@@ -141,4 +142,18 @@ body {
   color: white;
   padding: 4rem 2rem;
   text-align: center;
+}
+
+/* Assicurarsi che il testo sia visibile su sfondi chiari */
+.section p {
+  color: #1a202c; /* Gray 900 */
+}
+
+/* Assicurarsi che i link siano visibili */
+a {
+  color: #1e3a8a; /* Blue 800 */
+}
+
+a:hover {
+  color: #2c5282; /* Blue 600 */
 }
