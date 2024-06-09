@@ -23,7 +23,7 @@ body {
   margin-right: 10px;
 }
 .hero {
-  background-image: url('path/to/your-hero-image.jpg');
+  background-image: url('img/hero-image.jpg');
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -109,6 +109,6 @@ body {
   transform: translateY(-10px);
 }
 .bg-pattern {
-  background-image: url('path/to/your-pattern.png');
+  background-image: url('img/pattern.png');
   background-size: cover;
 }
